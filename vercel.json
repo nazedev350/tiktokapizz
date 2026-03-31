@@ -8,19 +8,19 @@
   ],
   "routes": [
     {
-      "src": "api/tiktok",
+      "src": "/tiktok",
       "dest": "/api/tiktok.js"
     },
     {
-      "src": "api/tiktok/v1",
+      "src": "/tiktok/v1",
       "dest": "/api/tiktok/v1.js"
     },
     {
-      "src": "api/tiktok/v2",
+      "src": "/tiktok/v2",
       "dest": "/api/tiktok/v2.js"
     },
     {
-      "src": "api/tiktok/v3",
+      "src": "/tiktok/v3",
       "dest": "/api/tiktok/v3.js"
     }
   ]
