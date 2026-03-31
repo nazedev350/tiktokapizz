@@ -14,7 +14,8 @@ module.exports = async (req, res) => {
   if (!url) {
     return res.status(400).json({
       status: false,
-      msg: 'Parameter "url" wajib diisi.',
+      msg: 'mana url tiktoknya?',
+      author: 'yudaa',
       example: '/api/tiktok?url=https://www.tiktok.com/@user/video/123456'
     })
   }
